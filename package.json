@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "callback":"node src/callback/index.js"
+    "callback": "node src/callback/index.js"
   },
   "author": "ElvisGT",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
